@@ -1,0 +1,167 @@
+/* Global Styles */
+
+html, body, ul, ol, li, form,
+fieldset, a div, img {margin:0; padding:0; border:0; 
+}
+
+body {
+	cursor:default;
+	color:#000000;
+	background-color: #ffffff;
+
+}
+
+	
+.bodyText {
+	line-height:18px;
+	color:#000000;
+	letter-spacing:0.1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin-left: 10px;
+	margin-right: 20px;
+    width: 520px;
+}
+
+.bodyText a:link, a:visited {
+	text-decoration: none;
+	color:#ff9900;
+} 
+.bodyText a:hover, a:active{
+	color:#666666;
+} 
+		
+#maincontent li {
+	display: list-item;
+	font-size:11px;
+	list-style-type:square;
+	list-style-position:outside;
+	margin:0;
+	padding:0;
+	}
+
+#maincontent ul {
+	margin-left:25px;
+	margin-right:35px;
+	}
+
+#maincontent_subpage ul {
+	margin-left:25px;
+	margin-right:35px;
+	}
+
+#maincontent_subpage li {
+	display: list-item;
+	font-size: 11px;
+	list-style-type:square;
+	list-style-position:outside;
+	margin:0;
+	padding:0;
+	}
+
+
+
+.pageName {
+	font:20px/28px Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	letter-spacing:0.2em;
+	margin: 10px 0 10px 0;
+	}
+
+.navTextTop ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+	margin-right: 20px;
+	letter-spacing:0.0em; /* necessary for IE7 125% */
+
+}
+
+.navTextTop li {
+	display:inline;
+}
+
+
+.navTextTop a:link, .navTextTop a:visited {
+	font:12px Arial, Helvetica, sans-serif;
+	color: #FFCC00;
+	text-decoration: none;
+	padding-right: 10px;
+
+}
+
+
+.navTextTop a:hover, .navTextTop a:active{
+
+	color: #FF9900;
+	text-decoration: none
+}
+
+
+
+.navTextBottom a:link, .navTextBottom a:visited{
+	font:10px Arial, Helvetica, sans-serif;
+	color: #FF9900;
+	letter-spacing:0.1em;
+	text-decoration: none;
+
+
+}
+
+
+.navTextBottom a:hover, .navTextBottom a:active{
+	color: #666666;
+	letter-spacing:0.1em;
+	text-decoration: underline;
+
+}
+
+.sidenavbar a:link, .sidenavbar a:visited{
+	color: #FF9900;
+	text-decoration: none;
+	padding: 2px;
+	font-family: Tahoma, Verdana, Arial, sans-serif;
+	font-size: 12px;
+	margin-left: 20px;
+
+
+}
+
+.sidenavbar a:hover, .sidenavbar a:active {
+	color: #000000;
+	background-color:#EEEEEE;
+	text-decoration: none;
+	padding: 2px;
+	margin-left: 20px;
+}
+
+.sidenavbar ul{
+	list-style:none;
+
+}
+.copyrightText {
+	font:11px/30px Arial, Helvetica, sans-serif;
+	color:#2D374D;
+	letter-spacing:0.1em;
+	top: 54px;
+	z-index: -2;
+	text-align: center;
+}
+
+
+.imagemargin {
+	margin: 20px; /* adds margin around images */
+	border: solid;
+	border-color: #CCCCCC;
+	border-width: 1px;
+}
+.bodyTextSml {
+
+	line-height:14px;
+	color:#000000;
+	letter-spacing:0em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
